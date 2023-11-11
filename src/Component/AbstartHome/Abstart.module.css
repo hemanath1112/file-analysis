@@ -1,7 +1,7 @@
 .AbstartHome{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(../../Asstes/img-1.jpg);
+    background: linear-gradient(rgba(0, 136, 248, 0.4), rgba(0, 0, 0, 0.9)),url(../../Asstes/img-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:#fff;
+    color:#ffffff;
 }
 .AbstartHome h2{
     width: 1000px;
@@ -45,20 +45,32 @@
     text-decoration: underline;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.2s ease;
+}
+.AbstartHome .EnterPage:hover{
+    transform: translateY(-10px);
+    color: #bed300;
 }
 
 .ProjectAbstart{
     width: 100%;
     height: 100vh;
-   padding: 100px 50px 50px 50px;  
+   padding: 120px 50px 50px 50px;
+   background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 136, 248, 0.4) ),url(../../Asstes/img-1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: #fff;
+   text-align: center;
 }
 .ProjectAbstart h1{
     display: inline-flex;
     font-size: 35px;
-    border-bottom: 5px solid black;
     padding-bottom: 5px;
     margin-bottom: 50px;
     text-transform: uppercase;
+    color: #e6ff01;
+
 }
 .ProjectAbstart p{
     font-size: 20px;

@@ -1,6 +1,6 @@
 .Login{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.9  ), rgba(0,0,0,0.9)), url(../../Asstes/img-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 136, 248, 0.5)), url(../../Asstes/img-2.png);
     background-position: center;
     background-size: cover;
     padding-top: 100px;
@@ -22,6 +22,7 @@
     width: 100%;
     height: 100%;
     position: relative;  
+    margin-top: 20px;
 }
 .LoginTitle{
     position: absolute;
@@ -32,6 +33,7 @@
     font-weight: 500;
     width: 600px;
     color: #2ecc71;
+ 
 }
 .Title{
     text-align: center;
@@ -40,6 +42,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
+    margin-top: 60px;
 }
 .Forms{
     display: flex;
@@ -49,20 +52,22 @@
     margin: 0px auto;
 }
 .Forms input{
-    height: 30px;
     font-size: 18px;
     outline: none;
     border: none;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    padding: 2pxpx;
+
+    border: 3px solid #fff;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
     margin-bottom: 10px;
-    color: #fff;
+    color: rgb(255, 217, 0);
     background: transparent;
 }
 .Forms label{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    color: #2ecc71;
+    color: #f5f6fa;
 }
 .Forms button{
     width: 100px;
@@ -72,14 +77,15 @@
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
-    border: 2px solid #2ecc71;
-    background-color: #2ecc71;
+    border: 2px solid #f5f6fa;
+    background-color: #f5f6fa;
     color: #000000;
     transition: 0.2s ease;
     cursor: pointer;
 }
 .Forms button:hover{
-    background-color: #27ae60;
-    border: 2px solid #27ae60;
+    background-color: transparent;
+    color: #f5f6fa;
+    border: 2px solid #f5f6fa;
     
 }
