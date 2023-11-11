@@ -5,6 +5,8 @@ import Abstart from './Component/AbstartHome/Abstart';
 import AbstartDetails from './Component/AbstartHome/ProjectDetails'
 import Login from './Component/Login/Login'
 import Header from './Component/Header/Header'
+import Home from './Component/Home/Home'
+import File from './Component/File/File'
 
 function App() {
   return (
@@ -31,8 +33,9 @@ function App() {
         </>
       }/>
     </Routes> */}
-    <Header/>
-      
+    {/* <Header/>
+      <Home/> */}
+      <File/>
     </div>
   );
 }

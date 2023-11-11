@@ -13,8 +13,7 @@ const Header = () => {
     </div>
     <ul>
         <li>Home</li>
-        <li>Detection</li>
-        <li>Image Processing</li>
+        <li>User Files</li>
         <li>Login</li>
     </ul>
 </div>

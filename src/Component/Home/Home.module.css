@@ -1,10 +1,10 @@
 .Home{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(../../Asstes/img-3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 136, 248, 0.4)),url(../../Asstes/img-3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     color: #fff;
     padding: 50px;
     display: flex;
@@ -28,21 +28,25 @@
     font-size: 18px;
 }
 .EnterPage{
-    width: 300px;
-    padding: 10px 10px;
+    /* width: 300px; */
+    padding: 10px 20px;
     margin-top: 20px;
     font-size: 18px;
+    font-weight: 600;
     outline: none;
-    background-color: transparent;
-    color: aqua;
-    border: none;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #fff;
     text-transform: uppercase;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s ease;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .EnterPage:hover{
     transform: translateY(-10px);
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
 }
