@@ -13,7 +13,10 @@ const Login = () => {
     <div className={classes.Login}>
  
         <div className={classes.LoginForm}>
-          <h3 className={classes.LoginTitle}>Leveraging Advanced AIS Analytics for Precision Detection and Monitoring of Boat Identification in Dynamic Ocean Environments</h3>
+          <h3 className={classes.LoginTitle}>Secure and Smart Logistics Management
+using Hybrid Enhanced Efficiency 
+for Data Privacy
+</h3>
           <h4 className={classes.Title}>User's Login</h4>
           <form action="" onSubmit={(e)=>e.preventDefault(e)} className={classes.Forms} >
               <label htmlFor="email">Enter your Email</label>

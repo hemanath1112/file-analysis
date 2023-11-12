@@ -15,8 +15,11 @@ const Home = () => {
     <div className={classes.Home}>
 
 
-      <h2>Next-Gen Maritime Security: Leveraging Advanced AIS Analytics for Precision Detection and Monitoring of Boat Identification in Dynamic Ocean Environments</h2>
-        <button className={classes.EnterPage} onClick={Handle}>Boat Identification</button>
+      <h2>Secure and Smart Logistics Management
+using Hybrid Enhanced Efficiency 
+for Data Privacy
+</h2>
+        <button className={classes.EnterPage} onClick={Handle}>Datas </button>
     </div>
   )
 }

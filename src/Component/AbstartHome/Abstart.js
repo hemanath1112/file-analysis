@@ -14,7 +14,10 @@ const Abstart = () => {
     <div >
         <div className={classes.AbstartHome}>
             <p className={classes.Welcome}>Welcome..</p>
-            <h2>Next-Gen Maritime Security: Leveraging Advanced AIS Analytics for Precision Detection and Monitoring of Boat Identification in Dynamic Ocean Environments</h2>
+            <h2>Secure and Smart Logistics Management
+using Hybrid Enhanced Efficiency 
+for Data Privacy
+</h2>
             <button className={classes.EnterPage} onClick={showHandler}>Go To Project Details</button>
         </div>
     </div>
